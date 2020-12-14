@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+.bio {
+background-color: lightgreen;
+padding: 5px;
+}
+.profile {
+width: 20%;
+margin-left: 10px;
+	margin-right: 10px;	
+}
+
