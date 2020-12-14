@@ -9,4 +9,7 @@ width: 20%;
 margin-left: 10px;
 	margin-right: 10px;	
 }
-
+.quiz {
+background-color: lightgreen;
+padding: 5px;
+}
