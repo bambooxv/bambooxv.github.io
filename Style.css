@@ -7,7 +7,6 @@ body {
 .web {
 margin-left: 5%;
 margin-right: 5% ;
-
 }
 .bio {
 background-color: #C2FF8C;
@@ -15,6 +14,8 @@ padding: 5px;
 width: 93%;
 border: 2px solid green;
 text-align: center;
+margin-left: 5%;
+margin-right: 5% ;
 }
 .profile {
 width: 20%;
