@@ -25,6 +25,10 @@ margin-left: 10px;
 display: flex;	
 flex-direction: row;
 }
+.row2 {
+display: flex;	
+flex-direction: row;
+}
 
 .quiz {
 width: 30%;
@@ -43,6 +47,14 @@ margin-right: 5px;
 border: 2px solid green;
 }
 .Rico {
+width: 30%;
+background-color: #C2FF8C;
+padding: 5px;
+margin-top: 5px;
+margin-right: 5px;
+border: 2px solid green;
+}
+.MIW {
 width: 30%;
 background-color: #C2FF8C;
 padding: 5px;
