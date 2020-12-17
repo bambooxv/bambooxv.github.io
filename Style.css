@@ -4,7 +4,22 @@ body {
  background-image: url("https://bgfons.com/uploads/bamboo/bamboo_texture3113.jpg");
  background-size: 600px 600px;
 }
-.web {
+#content1 {
+margin-left: 5%;
+margin-right: 5% ;
+text-align: center;
+}
+#content2 {
+margin-left: 5%;
+margin-right: 5% ;
+text-align: center;
+}
+#content3 {
+margin-left: 5%;
+margin-right: 5% ;
+text-align: center;
+}
+#content4 {
 margin-left: 5%;
 margin-right: 5% ;
 text-align: center;
@@ -19,10 +34,31 @@ margin-left: 5%;
 margin-right: 5% ;
 
 }
-.profile {
-width: 20%;
+.ProPic {
+display:flex;
+flex-direction: column;
+}
+.name {
+transition: 2s;
+width: 50%;
 margin-left: 10px;
-	margin-right: 10px;
+	margin-right: 10px;	
+}
+.name:hover {
+transition: 2s;
+transform: scale(1.2);	
+	
+}
+.profile {
+transition: 2s;
+width: 20%;
+margin-left: auto;
+	margin-right: auto;
+}
+.profile:hover {
+transition: 2s;
+transform: scale(1.1);	
+	
 }
 .row1{
 display: flex;	
@@ -64,4 +100,77 @@ padding: 5px;
 margin-top: 5px;
 margin-right: 5px;
 border: 2px solid green;
+}
+.set1 {
+width: 30%;
+background-color: #C2FF8C;
+padding: 5px;
+margin-top: 5px;
+margin-right: 5px;
+border: 2px solid green;
+}
+.set2 {
+width: 30%;
+background-color: #C2FF8C;
+padding: 5px;
+margin-top: 5px;
+margin-right: 5px;
+border: 2px solid green;
+}
+.set3 {
+width: 45%;
+background-color: #C2FF8C;
+padding: 5px;
+margin-top: 5px;
+margin-right: 5px;
+border: 2px solid green;
+}
+.pict {
+width: 100%;
+}
+.pict1 {
+width: 65%;
+}
+.pict:hover {
+transition: 2s;
+transform: scale(1.25);
+}
+.pict1:hover {
+transition: 2s;
+transform: scale(1.5);
+}
+.nav{
+display: flex;	
+flex-direction: row;	
+margin-left: 5%;
+
+}
+
+button {
+width: 22.3%;	
+height: 50px;
+font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+font-size:24px;
+background-color: #C2FF8C;
+padding: 5px;
+margin-top: 5px;
+border: 2px solid green;
+}
+button:hover { 
+transition: .1s;
+  background-color: green;
+}
+.textsmall {
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+p {
+font-family: 	"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"	
+}
+a {
+font-family: 	"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"	
+}
+h1 {
+font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 }

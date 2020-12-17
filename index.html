@@ -3,38 +3,101 @@
     <head>
         <title>Ricardo Parson's Workplace</title>
     	<link href="Style.css" rel="stylesheet" type="text/css">
-    	<script type="text/javascript" src="Script.js"></script>
+		<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="Script.js"></script>
     </head>
     <body>
 		<div class="bio">
-        		<h1>Ricardo Parson</h1>
-				<img src="Images/RJP Picture website.png" class="profile"> <img src="Images/Profile Picture.png" class="profile">
-        		<p>Hello everybody, my name is Ricardo Parson. I am current student at Thomas A. Edison CTE High School. I am a dedicated coder who is interested in perusing a career in the tech industry. I am also a digital artist who runs off of commissions. This portfolio will be updated heavily over the upcoming weeks with my projects.</p>
+				<div class="ProPic">
+				<div class="preserve">
+        		<img src="Images/Signature.png" class="name" onmouseover="this.src='Images/Signature2.png'" onmouseout="this.src='Images/Signature.png'">
+				</div>
+				<img src="Images/RJP Picture website.png" class="profile" onmouseover="this.src='Images/Profile Picture.png'" onmouseout="this.src='Images/RJP Picture website.png'">
+				</div>
+				<p class="textsmall">Hello everybody, my name is Ricardo Parson. I am currently a student at Thomas A. Edison CTE High School. I am interested in perusing a career in coding. I am also a digital artist, digital editor and video editor. My business email is <a href="mailto:ricardojparson@gmail.com" target="_blank">ricardojparson@gmail.com</a>. If certain elements in the page fail to load, wait 5 minutes and refresh. I update this site periodically.</p>		
 		</div>
-		<div class="web">
+		<div class="nav">
+  <button id="button1">Web Development</button>
+  <button id="button2">Digital Art</button>
+  <button id="button3">Digital Editing</button>
+  <button id="button4">Video Editing</button>
+		</div>
+		<div id="content1">
 			<div class="row1">
 				<div class="quiz">
-					<h3>Bendy And The Ink Machine Fan Website</h3>
-					<p> This was a small fan project that I created. It gathers inputs from the user to determine which character you are from the video game “Bendy and the Ink Machine.” It uses If, Else If and Else statements to sort the response. Then it appends an img and p class to a hidden div class. It also has click functions on the buttons, one to run the statements and the other to reset a quiz counter. The art is not mine, only the code work is mine. </p>
+					<h1>Bendy And The Ink Machine Fan Website</h1>
+					<p> This was a small fan project that I created. It gathers inputs from the user to determine which character you are from the video game “Bendy and the Ink Machine.” It uses If, Else If and Else statements to sort the response. Then it appends an img element and p element to a hidden div class. It also has click functions on the buttons, one to run the statements and the other to reset a quiz counter. The art is not mine, only the code work is mine. </p>
 					<a href="https://bambooxv.github.io/Bendy-Quiz-Fan-Site/" target="_blank"> Check it out</a>
 				</div>
 				<div class="beetle"> 
-					<h3>Beetle Site</h3>
-					<p>This was my first java script project. The CSS was minimal but the javascript code was the main focus. I had listed img elements in a array and set a for each loop to help show the image. Then, I set the button to append an img depending on the address you put in the input box.</p>
+					<h1>Beetle Site</h1>
+					<p>This was my first java script project. The CSS was minimal but the JavaScript code was the main focus. I had listed img elements in an array and set a for each loop to help show the image. Then, I set the button to append an img element depending on the image address you put in the input box.</p>
 					<a href="https://bambooxv.github.io/Beetle-World" target="_blank"> Check it out</a>
 				</div>
 				<div class="Rico">
-				<h3>Puerto Rico Recipe Site</h3>
-				<p> This is my Puerto Rican Recipes Website that salavaged from my 2019 project. In this, I photo edited a banner for the webpage. Alongside it comes the navigation bar, which hides and shows certain articles. I had the elements float to make a nice compact page that display different recipes. Javascript was used to hide and show elements. All of the recipes used were not written by me. I only completed to design and coding of the website.</p>
-				<a href="https://bambooxv.github.io/Puerto-Rican-Recipe-Home-Page-1/#" target="_blank"> Check it out</a>
+					<h1>Puerto Rico Recipe Site</h1>
+					<p> This is my Puerto Rican Recipes Website that salvaged from my 2019 project. In this, I photo edited a banner for the webpage. Alongside it comes the navigation bar, which hides and shows certain articles. I had the elements float to make a nice compact page that display different recipes. JavaScript was used to hide and show elements. All of the text used was not written by me. I only completed to design and coding of the website.</p>
+					<a href="https://bambooxv.github.io/Puerto-Rican-Recipe-Home-Page-1/#" target="_blank"> Check it out</a>
 				</div>
-				
 			</div>
 			<div class="row2">
 				<div class="MIW">
-				<h3>Motionless in White Fan Website</h3>
-				<p> This is my Motionless in White Fan Website. Here, I set up elements in CSS in percentages. It's very small with a link to the dead stream event. No Java Script was used, but the concept was great nonetheless.</p>
-				<a href="https://bambooxv.github.io/MIW-Fan-Page" target="_blank"> Check it out</a>
+					<h1>Motionless in White Fan Website</h1>
+					<p> This is my Motionless in White Fan Website. Here, I set up elements in CSS in percentages. It's very small with a link to the dead stream event. No JavaScript was used, but the concept was interesting nonetheless. I updated the link for the video at the bottom to a clip from the actual event.</p>
+					<a href="https://bambooxv.github.io/MIW-Fan-Page" target="_blank"> Check it out</a>
+				</div>
+			</div>
+		</div>
+		<div id="content2">
+			<div class="row1">
+				<div class="set1">
+					<h1> Last Breath of Death</h1>
+					<p>This was a picture I drew based on the Undertale Fan Game called "Last Breath". This was posted on my Instagram along with a video speed edit on my YouTube channel.</p>
+					<img src="Images/Last Breath of Death.png" class="pict">
+				</div>
+				<div class="set1">
+					<h1>Soul Deprivation</h1>
+					<p>This was a picture I drew for a game I plan on making in the near future. Some things were blurred out of the picture.</p>
+					<img src="Images/Soul Deprivation.png" class="pict">
+				</div>
+				<div class="set1">
+					<h1>The Future</h1>
+					<p> I created this photo to help my believing. It holds symbolic meaning for myself. The character in the photo is one of my own.</p>
+					<img src="Images/The Future.png" class="pict">
+				</div>
+			</div>
+		</div>
+		<div id="content3">
+			<div class="row1">
+				<div class="set2">
+					<h1>Fan Made Dead Days Album Cover</h1>
+					<p>Before Get Scared released the dead days album, I speculated on what the album would look like. I had photoshopped an album together in preparation for its release.</p>
+					<img src="Images/Ricardo Parson_Period5&6Album_Final_Front.jpg" class="pict1">
+					<img src="Images/Ricardo Parson_Period5&6Album_Final_Back.jpg" class="pict1">
+				</div>
+				<div class="set2">
+					<h1>Dark Dream</h1>
+					<p>During my 2nd year of high school, I photoshopped a picture of myself to express a darker tone of my creativity. It came out extremely creepy. But since it was Halloween, it was acceptable.</p>
+					<img src="Images/My_Dreams.jpg" class="pict">
+				</div>
+				<div class="set2">
+					<h1>Toucan Dad</h1>
+					<p>This was a joke image that a created in my 2nd year of high school. It was a reference to the election and cereal mascots.</p>
+					<img src="Images/ToucanDad.jpg" class="pict">
+				</div>
+			</div>
+		</div>
+		<div id="content4">
+			<div class="row1">
+				<div class="set3">
+				<h1>Last Breath of Death Speed Paint</h1>
+					<p>This was a video of my drawing "Last Breath of Death". It shows my drawing process in photoshop.</p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/KuCYVJYajB0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="set3">
+				<h1>Last Breath of Death Speed Paint</h1>
+					<p> This video was about the Minecraft Phantom. It was where I experimented with different effects in Final Cut Pro.</p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/f2ihwYOAuJo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
