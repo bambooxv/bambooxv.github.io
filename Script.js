@@ -5,6 +5,7 @@ $("#content2").hide();
 $("#content3").hide();
 $("#content4").hide();
 
+	
 $("#button1").click(function(){
 $("#content1").show();
 $("#content2").hide();

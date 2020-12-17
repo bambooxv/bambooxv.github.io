@@ -38,13 +38,13 @@ margin-right: 5% ;
 display:flex;
 flex-direction: column;
 }
-.name {
+.Name {
 transition: 2s;
 width: 50%;
 margin-left: 10px;
 	margin-right: 10px;	
 }
-.name:hover {
+.Name:hover {
 transition: 2s;
 transform: scale(1.2);	
 	
