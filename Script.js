@@ -1,10 +1,10 @@
 // JavaScript Document
 $( document ).ready(function() {
+document.getElementById("update").innerHTML = document.lastModified;
 $("#content1").hide();
 $("#content2").hide();
 $("#content3").hide();
 $("#content4").hide();
-
 	
 $("#button1").click(function(){
 $("#content1").show();
