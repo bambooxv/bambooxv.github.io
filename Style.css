@@ -4,6 +4,7 @@ body {
  background-image: url("https://bgfons.com/uploads/bamboo/bamboo_texture3113.jpg");
  background-size: 600px 600px;
 }
+/* Hidden elements activated by respective buttons: Webdev, Digital art, Photo, Video Editing */
 #content1 {
 margin-left: 5%;
 margin-right: 5% ;
@@ -24,6 +25,7 @@ margin-left: 5%;
 margin-right: 5% ;
 text-align: center;
 }
+/* First box with name, photo & description */
 .bio {
 background-color: #C2FF8C;
 padding: 5px;
@@ -61,6 +63,7 @@ transition: 2s;
 transform: scale(1.1);	
 	
 }
+/* Makes boxes line up neatly */
 .row1{
 display: flex;	
 flex-direction: row;
@@ -69,7 +72,7 @@ flex-direction: row;
 display: flex;	
 flex-direction: row;
 }
-
+/* Each invidual website box */
 .quiz {
 width: 30%;
 background-color: #C2FF8C;
@@ -102,6 +105,7 @@ margin-top: 5px;
 margin-right: 5px;
 border: 2px solid green;
 }
+/* Art boxes */
 .set1 {
 width: 30%;
 background-color: #C2FF8C;
@@ -126,6 +130,7 @@ margin-top: 5px;
 margin-right: 5px;
 border: 2px solid green;
 }
+/* Art images with hover */
 .pict {
 width: 100%;
 }
@@ -140,6 +145,7 @@ transform: scale(1.25);
 transition: 2s;
 transform: scale(1.5);
 }
+/* Navigation with buttons */
 .nav{
 display: flex;	
 flex-direction: row;	
@@ -159,6 +165,7 @@ button:hover {
 transition: .1s;
   background-color: green;
 }
+/* All fonts */
 .textsmall {
 width: 70%;
 margin-left: auto;
@@ -173,6 +180,7 @@ font-family: 	"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed"
 h1 {
 font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 }
+/* Videos */
 .videocontainer {
     position: relative;
     width: 100%;

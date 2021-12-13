@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+		<!--Sets title, description, search terms and attaches external documents-->
         <title>Ricardo Parson's Portfolio</title>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
 		<script type="text/javascript">document.getElementById("update").innerHTML = document.lastModified;</script>
     </head>
     <body>
+		<!-- Includes name with scroll, picture with scroll, description of myself and the date last modified-->
 		<div class="bio">
 				<div class="ProPic">
 				<div class="preserve">
@@ -23,30 +25,37 @@
 				<p class="textsmall">Hello everybody, my name is Ricardo J. Parson. I am currently a student at CUNY Queens. I am interested in pursuing a career in Software Development. I am also a digital artist, photo editor and video editor. My business email is <a href="mailto:ricardojparson@gmail.com" target="_blank">ricardojparson@gmail.com</a>. I coded this website and will update it periodically. Click the tabs below to see my work. If certain elements in the page fail to load, wait 5 minutes and refresh the page.</p>
 				<p>This page was last modified <span id="update"></span>.</p>
 		</div>
+		<!--Navigation with buttons-->
 		<div class="nav">
   <button id="button1">Web Development</button>
   <button id="button2">Digital Art</button>
   <button id="button3">Photo Editing</button>
   <button id="button4">Video Editing</button>
 		</div>
+		<!--When Webdev button is pressed, 4 boxes pop up-->
 		<div id="content1">
+			<!--There are two rows, first has 3 boxes and the second has 1-->
 			<div class="row1">
+				<!--Website 1-->
 				<div class="quiz">
 					<h1>Bendy And The Ink Machine Fan Website</h1>
 					<p> This was a small fan project that I created. It gathers inputs from the user to determine which character you are from the video game “Bendy and the Ink Machine.” It uses If, Else If and Else statements to sort the response. Then it appends an img element and p element to a hidden div class. It also has click functions on the buttons, one to run the statements and the other to reset a quiz counter. The art is not mine, only the code work is mine. </p>
 					<a href="https://bambooxv.github.io/Bendy-Quiz-Fan-Site/" target="_blank" > Check it out</a>
 				</div>
+				<!--Website 2-->
 				<div class="beetle"> 
 					<h1>Beetle Site</h1>
 					<p>This was my first JavaScript project. The CSS was minimal but the JavaScript code was the main focus. I had listed img elements in an array and set a for each loop to help show the image. Then, I set the button to append an img element depending on the image address you put in the input box.</p>
 					<a href="https://bambooxv.github.io/Beetle-World" target="_blank"> Check it out</a>
 				</div>
+				<!--Website 3-->
 				<div class="Rico">
 					<h1>Puerto Rico Recipe Site</h1>
 					<p> This is my Puerto Rican Recipes Website that salvaged from my 2019 project. In this, I photo edited a banner for the webpage. Alongside it comes the navigation bar, which hides and shows certain articles. I had the elements float to make a nice compact page that display different recipes. JavaScript was used to hide and show elements. All of the text used was not written by me. I only completed to design and coding of the website. This was one of my first projects.</p>
 					<a href="https://bambooxv.github.io/Puerto-Rican-Recipe-Home-Page-1/#" target="_blank"> Check it out</a>
 				</div>
 			</div>
+			<!--Website 4-->
 			<div class="row2">
 				<div class="MIW">
 					<h1>Motionless in White Fan Website</h1>
@@ -55,39 +64,47 @@
 				</div>
 			</div>
 		</div>
+		<!--When Digital Art is pressed, 3 boxes open-->
 		<div id="content2">
 			<div class="row1">
 				<div class="set1">
+					<!--Art showcase 1-->
 					<h1> Last Breath of Death</h1>
 					<p>This was a picture I drew based on the Undertale Fan Game called "Last Breath". This was posted on my Instagram along with a video speed edit on my YouTube channel.</p>
 					<img src="Images/Last Breath of Death.png" class="pict" alt="Sans fighting you">
 				</div>
 				<div class="set1">
+					<!--Art showcase 2-->
 					<h1>Soul Deprivation</h1>
 					<p>This was a picture I drew for a game I plan on making in the near future. Some things were blurred out of the picture.</p>
 					<img src="Images/Soul Deprivation.png" class="pict" alt="Anon kills the boogey man">
 				</div>
 				<div class="set1">
+					<!--Art showcase 3-->
 					<h1>The Future</h1>
 					<p> I created this photo to help my believing. It holds symbolic meaning for myself. The character in the photo is one of my own.</p>
 					<img src="Images/The Future.png" class="pict" alt="Demon on a throne">
 				</div>
 			</div>
 		</div>
+		<!--When pressing the Photo editing cover, 3 boxes open-->
 		<div id="content3">
 			<div class="row1">
 				<div class="set2">
+					<!--photoshop showcase 1-->
 					<h1>Fan Made Dead Days Album Cover</h1>
 					<p>Before Get Scared released the dead days album, I speculated on what the album would look like. I had photoshopped an album together in preparation for its release. Some assets within the photo are not owned by me. I only combined the images together and added visual effects to create something brand new.</p>
 					<img src="Images/Ricardo _Album_Final_front.jpg" class="pict1" alt="Skeleton with eye out">
 					<img src="Images/Ricardo_Album_Final_Back.jpg" class="pict1" alt="Skeleton with bleeding black eye">
 				</div>
 				<div class="set2">
+					<!--photoshop showcase 2-->
 					<h1>Dark Dream</h1>
 					<p>During my 2nd year of high school, I photoshopped a picture of myself to express a darker tone of my creativity. It came out extremely creepy. But since it was Halloween, it was acceptable.</p>
 					<img src="Images/My_Dreams.jpg" class="pict" alt="Me in a demonic world">
 				</div>
 				<div class="set2">
+					<!--photoshop showcase 3-->
 					<h1>Toucan Dad</h1>
 					<p>This was a joke image that a created in my 2nd year of high school. It was a reference to the election and cereal mascots. Some assets within the photo are not owned by me. I only combined the images together and added visual effects to create something brand new.</p>
 					<img src="Images/ToucanDad.jpg" class="pict" alt="Man dressed as a cereal mascot">
@@ -95,7 +112,9 @@
 			</div>
 		</div>
 		<div id="content4">
+			<!--When Video Editing is pressed, 2 boxes open-->
 			<div class="row1">
+				<!--Video editing showcase 1-->
 				<div class="set3">
 				<h1>Last Breath of Death Speed Paint</h1>
 					<p>This was a video of my drawing "Last Breath of Death". It shows my drawing process in photoshop.</p>
@@ -103,6 +122,7 @@
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/KuCYVJYajB0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video" allowfullscreen></iframe>
 					</div>
 				</div>
+				<!--Video editing showcase 2-->
 				<div class="set3">
 				<h1>Phantom Rework</h1>
 					<p> This video was about the Minecraft Phantom. It was where I experimented with different effects in Final Cut Pro.</p>
